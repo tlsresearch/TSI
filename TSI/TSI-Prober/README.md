@@ -83,12 +83,12 @@ The *example.json* file contains the response messages of *example.com* to all p
 If the **--cve** option is enabled and there is a TLS similarity to *example.com* greater than a specific threshold (default is 50), an additional file, *example.security.txt*, will be generated. This file indicates the potential CVEs present in *example.com*.
 
 ### example.json
-![example.json](./figs/example.json.png)
+
+<img src="./figs/example.json.png" alt="example.json" style="zoom:50%;" />
 
 ### example.txt
-![example.txt](./figs/example.txt.png)
+<img src="./figs/example.txt.png" alt="example.txt" style="zoom:50%;" />
 
 ### example.security.txt
-![example.security.txt](./figs/example.security.txt.png)
-
+<img src="./figs/example.security.txt.png" alt="example.security.txt" style="zoom:50%;" />
 
