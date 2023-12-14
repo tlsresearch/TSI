@@ -1,0 +1,7 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <ClientHello/>
+        </messages>
+    </Send>
+</workflowTrace>

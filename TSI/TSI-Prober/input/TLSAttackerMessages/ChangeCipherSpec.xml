@@ -1,0 +1,8 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <ChangeCipherSpec/>
+        </messages>
+    </Send>
+</workflowTrace>
+

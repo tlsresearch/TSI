@@ -1,0 +1,7 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <RSAClientKeyExchange/>
+        </messages>
+    </Send>
+</workflowTrace>

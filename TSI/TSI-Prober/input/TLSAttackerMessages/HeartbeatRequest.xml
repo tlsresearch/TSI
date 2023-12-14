@@ -1,0 +1,24 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <Heartbeat>
+                <heartbeatMessageType>
+                    <ByteExplicitValueModification>
+                        <explicitValue>01</explicitValue>
+                    </ByteExplicitValueModification>
+                </heartbeatMessageType>
+                <payloadLength>
+                    <IntegerExplicitValueModification>
+                        <explicitValue>3</explicitValue>
+                    </IntegerExplicitValueModification>
+                </payloadLength>
+                <payload>
+                    <ByteArrayExplicitValueModification>
+                        <explicitValue>01 02 03</explicitValue>
+                    </ByteArrayExplicitValueModification>
+                </payload>
+            </Heartbeat>
+        </messages>
+    </Send>
+</workflowTrace>
+

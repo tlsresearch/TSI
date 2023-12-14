@@ -1,0 +1,10 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <Application>
+                <dataConfig/>
+            </Application>
+        </messages>
+    </Send>
+</workflowTrace>
+

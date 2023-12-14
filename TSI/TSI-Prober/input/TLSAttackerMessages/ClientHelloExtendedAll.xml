@@ -1,0 +1,16 @@
+<workflowTrace>
+    <Send>
+        <messages>
+            <ClientHello>
+                <extensions>
+                    <RenegotiationInfoExtension/>
+                    <SessionTicketTLSExtension/>
+                    <HeartbeatExtension/>
+                    <SignatureAndHashAlgorithmsExtension/>
+                    <ECPointFormat/>
+                    <EllipticCurves/>
+                </extensions>
+            </ClientHello>
+        </messages>
+    </Send>
+</workflowTrace>
