@@ -1,4 +1,4 @@
-# TSI-Prober
+# TSI (TLS Server Identifier)
 
 TSI-Prober is a Java-based framework that can identify the type and version of TLS server implementations. For example, it can determine whether a website's server is using the OpenSSL-1.1.1x library. Additionally, by integrating publicly available CVE (Common Vulnerabilities and Exposures) information, TSI-Prober assists pentesters in analyzing the security risks of TLS services.
 
