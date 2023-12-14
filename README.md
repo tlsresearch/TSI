@@ -84,11 +84,11 @@ If the **--cve** option is enabled and there is a TLS similarity to *example.com
 
 ### example.json
 
-<img src="./figs/example.json.png" alt="example.json" style="zoom:50%;" />
+<img src="./Figures/example.json.png" alt="example.json" style="zoom:50%;" />
 
 ### example.txt
-<img src="./figs/example.txt.png" alt="example.txt" style="zoom:50%;" />
+<img src="./Figures/example.txt.png" alt="example.txt" style="zoom:50%;" />
 
 ### example.security.txt
-<img src="./figs/example.security.txt.png" alt="example.security.txt" style="zoom:50%;" />
+<img src="./Figures/example.security.txt.png" alt="example.security.txt" style="zoom:50%;" />
 
