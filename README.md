@@ -84,11 +84,88 @@ If the **--cve** option is enabled and there is a TLS similarity to *example.com
 
 ### example.json
 
-<img src="./Figures/example.json.png" alt="example.json" style="zoom:50%;" />
+```json
+{
+  "ALERT,ALERT,ALERT":[
+		"-",
+		"x"
+	],
+	"CCS,CCS,CCS":[
+		"-",
+		"x"
+	],
+	"CH,CH,CCS":[
+		"SERVER_HELLO|CERTIFICATE|SERVER_HELLO_DONE",
+		"ALERT_FATAL_UNEXPECTED_MESSAGE|x"
+	],
+	"CH,FIN":[
+		"SERVER_HELLO|CERTIFICATE|SERVER_HELLO_DONE",
+		"ALERT_FATAL_UNEXPECTED_MESSAGE|x"
+	],
+	"CH,CCS":[
+		"SERVER_HELLO|CERTIFICATE|SERVER_HELLO_DONE",
+		"ALERT_FATAL_UNEXPECTED_MESSAGE|x"
+	],
+  ......
+  ......
+}
+```
 
 ### example.txt
-<img src="./Figures/example.txt.png" alt="example.txt" style="zoom:50%;" />
+
+```text
+    isEmptyCertAcceptable           true
+                cost time           76162
+           openssl-1.0.2o           57
+					 ......
+           openssl-1.0.2c           56
+           ......
+           openssl-1.0.1p           54
+           ......
+           openssl-1.0.1i           53
+           ......
+           openssl-1.1.0b           52
+           ......
+           openssl-1.1.1d           51
+           ......
+           openssl-1.1.1q           50
+           ......
+           openssl-1.0.0p           46
+           ......
+           openssl-1.0.0o           45
+           ......
+           openssl-1.0.0c           44
+           ......
+```
 
 ### example.security.txt
-<img src="./Figures/example.security.txt.png" alt="example.security.txt" style="zoom:50%;" />
+```text
+              example.com           13           OPENSSL-1.0.2o, OPENSSL-1.0.2n, ......
+------------------------------------------------------------
+           CVE-2021-23839           13           all
+            CVE-2022-0778           13           all
+            CVE-2020-1968           13           all
+            CVE-2021-4160           13           all
+            CVE-2020-1971           13           all
+            CVE-2021-3712           13           all
+           CVE-2021-23841           13           all
+            CVE-2019-1551           11           OPENSSL-1.0.2p, OPENSSL-1.0.2s, ......
+            CVE-2019-1563           11           OPENSSL-1.0.2s, OPENSSL-1.0.2q, ......
+            CVE-2019-1552           11           OPENSSL-1.0.2p, OPENSSL-1.0.2i, ......
+            CVE-2019-1547           11           OPENSSL-1.0.2s, OPENSSL-1.0.2n, ......
+            CVE-2018-0734            8           OPENSSL-1.0.2i, OPENSSL-1.0.2p, ......
+            CVE-2018-0737            7           OPENSSL-1.0.2n, OPENSSL-1.0.2o, ......
+            CVE-2018-0732            7           OPENSSL-1.0.2n, OPENSSL-1.0.2j, ......
+            CVE-2018-0739            6           OPENSSL-1.0.2k, OPENSSL-1.0.2m, ......
+            CVE-2017-3736            5           OPENSSL-1.0.2j, OPENSSL-1.0.2l, ......
+            CVE-2017-3735            5           OPENSSL-1.0.2i, OPENSSL-1.0.2j, ......
+            CVE-2017-3738            5           OPENSSL-1.0.2m, OPENSSL-1.0.2j, ......
+            CVE-2017-3737            5           OPENSSL-1.0.2i, OPENSSL-1.0.2j, ......
+            CVE-2017-3732            3           OPENSSL-1.0.2i, OPENSSL-1.0.2j, OPENSSL-1.0.2k
+            CVE-2017-3731            2           OPENSSL-1.0.2j, OPENSSL-1.0.2i
+            CVE-2016-7055            2           OPENSSL-1.0.2i, OPENSSL-1.0.2j
+            CVE-2016-7052            1           OPENSSL-1.0.2i
+```
+
+
 
