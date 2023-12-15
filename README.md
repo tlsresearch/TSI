@@ -107,7 +107,6 @@ If the **--cve** option is enabled and there is a TLS similarity to *example.com
 		"ALERT_FATAL_UNEXPECTED_MESSAGE|x"
 	],
   ......
-  ......
 }
 ```
 
@@ -117,7 +116,7 @@ If the **--cve** option is enabled and there is a TLS similarity to *example.com
     isEmptyCertAcceptable           true
                 cost time           76162
            openssl-1.0.2o           57
-					 ......
+           ......
            openssl-1.0.2c           56
            ......
            openssl-1.0.1p           54
